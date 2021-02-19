@@ -1,0 +1,56 @@
+:root{
+    --dark-grey: #222831;
+    --light-grey: #393e46;
+    --dark-blue: #00adb5;
+    --light-blue: #00fff5;
+    --main-font: #ffffff;
+}
+
+.header-default {
+    background-color: var(--dark-grey);    
+    height: 5em;  
+    display: flex;
+    align-items: center;  
+}
+
+.header-default .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-default h1 {
+    font-size: 1.8em;
+    color: var(--main-font);
+}
+
+.header-default button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-default button:hover {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    transition: 150ms;
+}
+
+.header-default button img {
+    background: none;
+    border: none;
+    height: 1em;
+}
+
+.header-default button p {
+    font-size: 1.1em;
+    color: var(--main-font);
+    margin-bottom: .1em;
+    margin-left: .3em;
+}
